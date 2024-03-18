@@ -8,6 +8,10 @@
     transition: all .3s ease-in-out;
 }
 
+h3 {
+    padding: 0.6rem;
+}
+
 body{
     background-color: #111111;
     height: 100vh;
