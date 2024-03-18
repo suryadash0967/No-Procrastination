@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+}
+
+body{
+    background-color: #111111;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-procrastinate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    gap: 3rem;
+
+}
+
+.procrastinate-yes{
+    position: relative;
+    left: 1.2%;
+    top: 0;
+}
+.procrastinate-no{
+    position: relative;
+    left: 1.2%;
+    top: 0;
+}
+
+.procrastinate-yes,
+.procrastinate-no{
+    border: none;
+    outline: none;
+    background-color: #000000dc;
+    
+    color: #fff;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 9px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.procrastinate-yes:hover,
+.procrastinate-yes:active,
+.procrastinate-no:hover,
+.procrastinate-no:active {
+    border: none;
+    outline: none;
+    background-color: #000000dc;
+    cursor: pointer;
+}
+
+.procrastinate-btns{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.procrastinate-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
